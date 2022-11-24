@@ -22,7 +22,7 @@ export default function Navbar() {
          const localhostChainId = "0x7a69";
          const goerliChainId = "0x5";
 
-         if (chainId !== localhostChainId) {
+         if (chainId !== goerliChainId) {
             alert("You are not connected to the localhost network! sidd");
             return;
          } else {

@@ -12,6 +12,7 @@ export default function MainInput() {
    const [prodcode, setProdCode] = useState("");
 
    const getProductDetails = async (id) => {
+      console.warn(id);
       id = prodcode;
       try {
          const { ethereum } = window;
