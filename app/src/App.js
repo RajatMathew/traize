@@ -11,6 +11,14 @@ import AddProductForm from "./AddProductForm";
 
 function App() {
    const [products, setProducts] = useState([]);
+   const [name, setName] = useState("");
+   const [location, setLocation] = useState("");
+   const [id, setId] = useState("");
+   const [day, setDay] = useState("");
+   const [month, setMonth] = useState("");
+   const [year, setYear] = useState("");
+   const [hr, setHr] = useState("");
+   const [min, setMin] = useState("");
 
    const addProducts = async () =>
       // name,

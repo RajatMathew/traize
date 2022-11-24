@@ -7,9 +7,14 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "ethers": "^5.7.2",
+    "ipfs": "^0.65.0",
+    "ipfs-core": "^0.17.0",
     "react": "^18.2.0",
+    "react-datetime": "^3.2.0",
     "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
     "react-scripts": "5.0.1",
+    "reactstrap": "^9.1.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
