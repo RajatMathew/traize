@@ -1,22 +1,23 @@
-import logo from "./logo.svg";
 import "./App.css";
+import MainInput from "./MainInput";
 import Navbar from "./Navbar";
+import Timeline from "./Timeline";
 
 function App() {
-  let name = "Rajat"
   return (
     <>
-      <div className="tracking-tight bg-zinc-100">
         <Navbar />
-        <div className="container mx-auto py-10 mt-28">
-          <p className="text-4xl font-bold tracking-tight py-3">Hey {name}! 👋</p>
-          <div className="max-w-md py-5 flex gap-1">
-
-          <input type="text" class="outline-none rounded py-3 px-3 w-full border-blue-200 bg-white shadow text-sm text-gray-700 placeholder-gray-400 focus:outline-none focus:shadow-outline" placeholder="Enter Product code" />
-          <button className="uppercase bg-teal-600 px-5 py-5 text-white font-bold rounded">Traize</button>
-          </div>
+      <div className="tracking-tight bg-zinc-100">
+        <div className="container mx-auto px-5">
+          
+        <MainInput />
         </div>
       </div>
+      <div className="container mx-auto px-5 py-10 bg-white">
+
+        <Timeline />
+      </div>
+
     </>
   );
 }
