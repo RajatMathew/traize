@@ -29,6 +29,8 @@ export default function MainInput() {
             let productDetails = await TraizeContract.getSingleProductDetail(
                id
             );
+            [{ name }] = productDetails;
+
             setProducts(productDetails);
             console.log(productDetails);
             <p>{{ productDetails }}</p>;
